@@ -28,9 +28,15 @@ else if (isset($_GET["page"]) && $_GET["page"] == "contacts") {
 include "vitrine-contacts.php";
 } 
 
+else if (isset($_GET["page"]) && $_GET["page"] == "contact-form") {
+    include "contact-form.php";
+}
+
 else if (isset($_GET["page"])) {
 include "404.php";
 }
+
+
 
 ?>
 
