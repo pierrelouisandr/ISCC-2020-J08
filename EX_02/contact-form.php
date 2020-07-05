@@ -32,5 +32,3 @@ echo "mail : ".$_POST ["user_mail"];
 echo "message : ".$_POST ["user_message"];
 
 ?>
-
-</body>

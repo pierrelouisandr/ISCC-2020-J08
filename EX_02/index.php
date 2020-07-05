@@ -20,23 +20,21 @@ if (isset($_GET["page"]) && $_GET["page"] == "accueil") {
 include "vitrine-accueil.php";
 }
 
-else if (isset($_GET["page"]) && $_GET["page"] == "programme") {
+if (isset($_GET["page"]) && $_GET["page"] == "programme") {
 include "vitrine-programme.php";
 }
 
-else if (isset($_GET["page"]) && $_GET["page"] == "contacts") {
+if (isset($_GET["page"]) && $_GET["page"] == "contacts") {
 include "vitrine-contacts.php";
 } 
 
-else if (isset($_GET["page"]) && $_GET["page"] == "contact-form") {
+if (isset($_GET["page"]) && $_GET["page"] == "contact-form") {
     include "contact-form.php";
 }
 
 else if (isset($_GET["page"])) {
 include "404.php";
 }
-
-
 
 ?>
 
